@@ -1,0 +1,36 @@
+body{
+	text-align: center;
+
+}
+table, td, th {
+    border: 2px solid black;
+}
+
+table{
+    width: 50%;
+	text-align: center;
+	}
+
+th {
+    height: 50px;
+}
+
+#main{
+	border: 1px solid black;
+}
+
+#one {
+	border: 2px solid black;
+}
+
+#two {
+	border: 2px solid black;
+}
+
+#three{
+	border: 2px solid black;
+}
+
+.whole{
+	
+}
