@@ -2,35 +2,46 @@ body{
 	text-align: center;
 
 }
-table, td, th {
+
+table, td, tr {
     border: 2px solid black;
 }
 
 table{
-    width: 50%;
-	text-align: center;
-	}
+    width: 500px;
+	margin: auto;
+}
 
-th {
+td {
     height: 50px;
 }
 
 #main{
-	border: 1px solid black;
+	border-collapse: collapse;
+
 }
 
 #one {
-	border: 2px solid black;
+	border-color: green;
+	border-top: 2px solid green;
 }
 
 #two {
-	border: 2px solid black;
+	border: 2px solid red;
 }
 
 #three{
-	border: 2px solid black;
-}
+	border-color: blue;
+	border-bottom: 2px solid blue;
+	}
+/*
+.class1{
 
-.whole{
-	
 }
+ .class2{
+
+ }
+
+ .class3 {
+
+ }
