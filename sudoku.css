@@ -1,8 +1,28 @@
+
+
 body{
 	text-align: center;
 
 }
 
+tbody, colgroup {
+	border: 4px solid;
+}
+
+td, tr {
+	border: 2px solid;
+	height: 40px;
+
+}
+
+table {
+    width: 400px;
+    margin: auto;
+	border: 4px solid black;
+}
+
+
+/*
 table, td, tr {
     border: 2px solid black;
 }
@@ -34,14 +54,4 @@ td {
 	border-color: blue;
 	border-bottom: 2px solid blue;
 	}
-/*
-.class1{
-
-}
- .class2{
-
- }
-
- .class3 {
-
- }
+*/
