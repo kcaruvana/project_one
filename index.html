@@ -4,162 +4,169 @@
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 	<link rel="stylesheet" type="text/css" href="sudoku.css">
-	<title>Project 1</title>
+	<title>Project One</title>
+	<script type="text/javascript" src="jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+
 </head>
 
 <body> 
 
-	<table rules="groups">
-	  <caption>Good Luck!</caption>
-	 		<colgroup span="3">
-	 		<colgroup span="3">
-	 		<colgroup span="3">
-	 			<tbody>
-			 		<tr>
-						<td>1</td>
-						<td>2</td>
-						<td>3</td>
+		<h3>Good Luck!</h3>
+				
+		<div id="sudoku" class="table">
 
-						<td>1</td>
-						<td>2</td>
-						<td>3</td>
 
-						<td>1</td>
-						<td>2</td>
-						<td>3</td>
-						
-					</tr>
+			<div class="row">
+				
+					<div class="cell left top"><input type="text"></div>
+					<div class="cell top"><input type="text"></div>
+					<div class="cell top"><input type="text"></div>
 
-					<tr>
-						<td>4</td>
-						<td>5</td>
-						<td>6</td>
+					<div class="cell left top"><input type="text"></div>
+					<div class="cell top"><input type="text"></div>
+					<div class="cell top"><input type="text"></div>
 					
-						<td>4</td>
-						<td>5</td>
-						<td>6</td>
-					
-						<td>4</td>
-						<td>5</td>
-						<td>6</td>
-					</tr>
+					<div class="cell left top"><input type="text"></div>
+					<div class="cell top"><input type="text"></div>
+					<div class="cell right top"><input type="text"></div>					
+			</div>
 
-					<tr>
-						<td>7</td>
-						<td>8</td>
-						<td>9</td>
-					
-						<td>7</td>
-						<td>8</td>
-						<td>9</td>
-					
-						<td>7</td>
-						<td>8</td>
-						<td>9</td>
-					</tr>
-				</tbody>
-			
-	 			<tbody>
-					<tr>
-						<td>1</td>
-						<td>2</td>
-						<td>3</td>
+			<div class="row">
+				
+					<div class="cell left"><input type="text"></div>
+					<div class="cell"><input type="text"></div>
+					<div class="cell "><input type="text"></div>
 
-						<td>1</td>
-						<td>2</td>
-						<td>3</td>
+					<div class="cell left"><input type="text"></div>
+					<div class="cell"><input type="text"></div>
+					<div class="cell "><input type="text"></div>
 
-						<td>1</td>
-						<td>2</td>
-						<td>3</td>
-						
-					</tr>
+					<div class="cell left"><input type="text"></div>
+					<div class="cell"><input type="text"></div>
+					<div class="cell right"><input type="text"></div>										
+					
+			</div>
 
-					<tr>
-						<td>4</td>
-						<td>5</td>
-						<td>6</td>
-					
-						<td>4</td>
-						<td>5</td>
-						<td>6</td>
-					
-						<td>4</td>
-						<td>5</td>
-						<td>6</td>
-					</tr>
+			<div class="row">
+				
+					<div class="cell left bottom"><input type="text"></div>
+					<div class="cell bottom"><input type="text"></div>
+					<div class="cell  bottom"><input type="text"></div>
 
-					<tr>
-						<td>7</td>
-						<td>8</td>
-						<td>9</td>
-					
-						<td>7</td>
-						<td>8</td>
-						<td>9</td>
-					
-						<td>7</td>
-						<td>8</td>
-						<td>9</td>
-					</tr>
-				</tbody>
+					<div class="cell left bottom"><input type="text"></div>
+					<div class="cell bottom"><input type="text"></div>
+					<div class="cell  bottom"><input type="text"></div>
 
-				<tbody>
-					<tr>
-						<td>1</td>
-						<td>2</td>
-						<td>3</td>
-						
-						<td>1</td>
-						<td>2</td>
-						<td>3</td>
-						
-						<td>1</td>
-						<td>2</td>
-						<td>3</td>
-					</tr>
-			
-					<tr>
-						<td>4</td>
-						<td>5</td>
-						<td>6</td>
-						
-						<td>4</td>
-						<td>5</td>
-						<td>6</td>
-						
-						<td>4</td>
-						<td>5</td>
-						<td>6</td>
-					</tr>
-	
-					<tr>
-						<td>7</td>
-						<td>8</td>
-						<td>9</td>
-						
-						<td>7</td>
-						<td>8</td>
-						<td>9</td>
-						
-						<td>7</td>
-						<td>8</td>
-						<td>9</td>
-					</tr>
-				</tbody>
-			</colgroup>
-			</colgroup>
-			</colgroup>
-		</table>
-		
+					<div class="cell left bottom"><input type="text"></div>
+					<div class="cell bottom"><input type="text"></div>
+					<div class="cell right bottom"><input type="text"></div>										
+					
+			</div>
+
+			<div class="row">
+				
+					<div class="cell left "><input type="text"></div>
+					<div class="cell "><input type="text"></div>
+					<div class="cell "><input type="text"></div>
+
+					<div class="cell left "><input type="text"></div>
+					<div class="cell "><input type="text"></div>
+					<div class="cell "><input type="text"></div>
+					
+					<div class="cell left "><input type="text"></div>
+					<div class="cell "><input type="text"></div>
+					<div class="cell right "><input type="text"></div>					
+			</div>
+
+			<div class="row">
+				
+					<div class="cell left"><input type="text"></div>
+					<div class="cell"><input type="text"></div>
+					<div class="cell "><input type="text"></div>
+
+					<div class="cell left"><input type="text"></div>
+					<div class="cell"><input type="text"></div>
+					<div class="cell "><input type="text"></div>
+
+					<div class="cell left"><input type="text"></div>
+					<div class="cell"><input type="text"></div>
+					<div class="cell right"><input type="text"></div>										
+					
+			</div>
+
+			<div class="row">
+				
+					<div class="cell left bottom"><input type="text"></div>
+					<div class="cell bottom"><input type="text"></div>
+					<div class="cell  bottom"><input type="text"></div>
+
+					<div class="cell left bottom"><input type="text"></div>
+					<div class="cell bottom"><input type="text"></div>
+					<div class="cell  bottom"><input type="text"></div>
+
+					<div class="cell left bottom"><input type="text"></div>
+					<div class="cell bottom"><input type="text"></div>
+					<div class="cell right bottom"><input type="text"></div>										
+					
+			</div>
+
+			<div class="row">
+				
+					<div class="cell left "><input type="text"></div>
+					<div class="cell "><input type="text"></div>
+					<div class="cell "><input type="text"></div>
+
+					<div class="cell left "><input type="text"></div>
+					<div class="cell "><input type="text"></div>
+					<div class="cell "><input type="text"></div>
+					
+					<div class="cell left "><input type="text"></div>
+					<div class="cell "><input type="text"></div>
+					<div class="cell right "><input type="text"></div>					
+			</div>
+
+			<div class="row">
+				
+					<div class="cell left"><input type="text"></div>
+					<div class="cell"><input type="text"></div>
+					<div class="cell "><input type="text"></div>
+
+					<div class="cell left"><input type="text"></div>
+					<div class="cell"><input type="text"></div>
+					<div class="cell "><input type="text"></div>
+
+					<div class="cell left"><input type="text"></div>
+					<div class="cell"><input type="text"></div>
+					<div class="cell right"><input type="text"></div>										
+					
+			</div>
+
+			<div class="row">
+				
+					<div class="cell left bottom"><input type="text"></div>
+					<div class="cell bottom"><input type="text"></div>
+					<div class="cell  bottom"><input type="text"></div>
+
+					<div class="cell left bottom"><input type="text"></div>
+					<div class="cell bottom"><input type="text"></div>
+					<div class="cell  bottom"><input type="text"></div>
+
+					<div class="cell left bottom"><input type="text"></div>
+					<div class="cell bottom"><input type="text"></div>
+					<div class="cell right bottom"><input type="text"></div>										
+					
+			</div>			
+		</div>
+
 		<br />
 		
-		<form action="">
-			<input type="button" value="Start">
-
+		<form action="#">
 			<input type="button" value="Pause">
 
-			<input type="button" value="Stop">
+			<input type="button" value="Scramble">
+
+			<input type="button" value="Clear">
 		</form>
 	</body>
 </html>

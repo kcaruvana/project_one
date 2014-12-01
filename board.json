@@ -1,0 +1,50 @@
+{
+    
+    "numbers":[
+        { "x": 1, "y": 1, "number": 8},
+        { "x": 2, "y": 1, "number": 5},
+        { "x": 3, "y": 1, "number": 6},
+        { "x": 5, "y": 1, "number": 2},
+        { "x": 7, "y": 1, "number": 3},
+        { "x": 8, "y": 1, "number": 1},
+
+        { "x": 9, "y": 2, "number": 6},
+        
+        { "x": 2, "y": 3, "number": 7},
+        { "x": 7, "y": 3, "number": 4},
+        { "x": 8, "y": 3, "number": 2},
+        
+        { "x": 3, "y": 4, "number": 9},
+        { "x": 5, "y": 4, "number": 7},
+        { "x": 6, "y": 4, "number": 3},
+        { "x": 7, "y": 4, "number": 8},
+        
+        { "x": 1, "y": 5, "number": 3},
+        { "x": 2, "y": 5, "number": 1},
+        { "x": 3, "y": 5, "number": 5},
+        { "x": 5, "y": 5, "number": 8},
+        { "x": 7, "y": 5, "number": 7},
+        { "x": 8, "y": 5, "number": 6},
+        { "x": 9, "y": 5, "number": 4},
+        
+        { "x": 3, "y": 6, "number": 4},
+        { "x": 4, "y": 6, "number": 5},
+        { "x": 5, "y": 6, "number": 6},
+        { "x": 7, "y": 6, "number": 9},
+        
+        { "x": 2, "y": 7, "number": 2},
+        { "x": 3, "y": 7, "number": 1},
+        { "x": 8, "y": 7, "number": 7},
+        
+        { "x": 1, "y": 8, "number": 6},
+        
+        { "x": 2, "y": 9, "number": 3},
+        { "x": 3, "y": 9, "number": 7},
+        { "x": 5, "y": 9, "number": 9},
+        { "x": 7, "y": 9, "number": 1},
+        { "x": 8, "y": 9, "number": 4},
+        { "x": 9, "y": 9, "number": 8}        
+        
+    ]
+}
+
